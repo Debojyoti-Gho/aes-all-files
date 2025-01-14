@@ -37,7 +37,7 @@ def decrypt_aes_key(enc_key, hash_key):
 
 # Streamlit UI
 st.title("File Encryption and Decryption with Deterministic Image and QR Code")
-
+st.info("developed by Debojyoti Ghosh")
 # Initialize session state for encryption and decryption results
 if "encrypted_file" not in st.session_state:
     st.session_state["encrypted_file"] = None
